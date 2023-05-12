@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="bullfrog.css">
+</head>
+<body style="overflow:auto; height:80vh">
+    <script src="bullfrog.js"></script>
+        <div class="nametext">Justin <span style="color:#277a00">"Bullfrog"</span> Gordon</div>
+        <h2>
+            Agile Product Manager • Licensed Educator • Experienced Technical Writer • Accidental Voice Actor • Aspiring Developer
+        </h2>
+      <nav class="navigation-menu">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" > <span style="color:#277a00"> Projects</span></a></li>
+          <li><a href="contact.html" >Contact</a></li>
+        </ul>
+      </nav>
+      <main >
+        <h1>
+            Chess Opening Trainer
+        </h1>
+        <h3>Want to impress your friends with your vast knowledge of chess openings and their strange and esoteric names? Try this naming quiz!</h3>
+        <p>How it works: <br><br>
+        A Flask API written in python grabs a database entry from a MongoDB instance. The entry includes the name of the opening along with the FEN, a chess position identifer. The name of the opening gets sent to the front-end. The user positions the board and submits. The FEN and name are sent to the API. The server compares the POST to the corresponding database entry and responds with whether or not they match. The board and pieces are from the open source chessboardjs written by Chris Oakman.
+        </p>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LEqrpq3-M-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h3>Next Steps:</h3>
+        <p>• Add a 'show position' button that reveals the opening <br>
+          • Implement a scoring system for consecutive correct answers</p>
+
+      </main>
+  </body>
+</html>
