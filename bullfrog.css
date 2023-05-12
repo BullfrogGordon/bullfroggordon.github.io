@@ -3,6 +3,12 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     color: #4169E1; 
+    background-image: url("imgs/navmenu0.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 200px;
+    overflow: hidden;
   }
   .container {
     position: relative;
@@ -11,32 +17,54 @@ body {
   }
   
   .navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 25%;
-    left: 33.33%;
-    width: 200px;
-    background-color: #CCCCCC; 
+    left: 15%;
+    width: 400px;
     font-family: sans-serif;
     font-weight: bold;
   }
   
   .navigation-menu ul {
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
   .navigation-menu li {
-    border: 2px solid transparent; 
+    margin: 0 20px; 
+    border: 2px solid transparent;
   }
   
   .navigation-menu li a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000000; 
+    color: #000000;
+    font-size: 2rem; 
+    transition: color 0.2s; 
+}
+
+.navigation-menu li a:hover {
+  color: #00BFFF; 
+}
+
+.navigation-menu li a.home:hover {
+    background-image: url("imgs/navmenu1.jpg");
+  }
+
+.navigation-menu li a.about:hover {
+    background-image: url("imgs/navmenu2.jpg");
+  }
+
+.navigation-menu li a.projects:hover {
+    background-image: url("imgs/navmenu3.jpg");
   }
   
-  .navigation-menu li a:hover {
-    outline: 2px solid #FFD700; 
+.navigation-menu li a.contact:hover {
+    background-image: url("imgs/navmenu4.jpg");
   }
