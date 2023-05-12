@@ -6,13 +6,16 @@
 </head>
 <body>
     <script src="bullfrog.js"></script>
-    <div class="container">
+        <div class="nametext">Justin <span style="color:#277a00">"Bullfrog"</span> Gordon</div>
+        <h2>
+            Agile Product Manager • Licensed Educator • Experienced Technical Writer • Accidental Voice Actor • Aspiring Developer
+        </h2>
       <nav class="navigation-menu">
         <ul>
-          <li><a href="#home" onmouseover="changeBottomImage('imgs/navmenu1.jpg')">Home</a></li>
-          <li><a href="#about" onmouseover="changeBottomImage('imgs/navmenu2.jpg')">About</a></li>
-          <li><a href="#projects" onmouseover="changeBottomImage('imgs/navmenu3.jpg')">Projects</a></li>
-          <li><a href="#contact" onmouseover="changeBottomImage('imgs/navmenu4.jpg')">Contact</a></li>
+          <li><a href="#home" onmouseenter="changeBottomImage('imgs/navmenu1.jpg')" onmouseleave="changeBottomImage('imgs/navmenu0.jpg')">Home</a></li>
+          <li><a href="#about" onmouseenter="changeBottomImage('imgs/navmenu2.jpg')" onmouseleave="changeBottomImage('imgs/navmenu0.jpg')">About</a></li>
+          <li><a href="#projects" onmouseenter="changeBottomImage('imgs/navmenu3.jpg')" onmouseleave="changeBottomImage('imgs/navmenu0.jpg')">Projects</a></li>
+          <li><a href="#contact" onmouseenter="changeBottomImage('imgs/navmenu4.jpg')" onmouseleave="changeBottomImage('imgs/navmenu0.jpg')">Contact</a></li>
         </ul>
       </nav>
       <main>
@@ -20,5 +23,7 @@
             <img id="bottom-img" src="imgs/navmenu0.jpg" alt="navme" class="bottom-image">
         </div>
       </main>
+
+      
   </body>
 </html>
