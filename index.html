@@ -5,18 +5,20 @@
     <link rel="stylesheet" type="text/css" href="bullfrog.css">
 </head>
 <body>
+    <script src="bullfrog.js"></script>
     <div class="container">
       <nav class="navigation-menu">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" onmouseover="changeBottomImage('imgs/navmenu1.jpg')">Home</a></li>
+          <li><a href="#about" onmouseover="changeBottomImage('imgs/navmenu2.jpg')">About</a></li>
+          <li><a href="#projects" onmouseover="changeBottomImage('imgs/navmenu3.jpg')">Projects</a></li>
+          <li><a href="#contact" onmouseover="changeBottomImage('imgs/navmenu4.jpg')">Contact</a></li>
         </ul>
       </nav>
       <main>
-        
+        <div class="imgcontainer">
+            <img id="bottom-img" src="imgs/navmenu0.jpg" alt="navme" class="bottom-image">
+        </div>
       </main>
-    </div>
   </body>
 </html>
