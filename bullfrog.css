@@ -188,33 +188,34 @@ body {
 
   .circle-button {
     position: fixed;
-    top: 5px;
+    top: 10px;
     right: 80px;
-    width: 50px;
-    height: 50px;
-    border-radius: 20%;
-    background-color: rgb(49, 26, 255);
+    width: 6vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #1E90FF, #00BFFF);
     border: none;
     color: white;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  
   .party-button {
     position: fixed;
-    top: 5px;
+    top: 10px;
     right: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 20%;
-    background-color: rgb(255, 26, 224);
+    width: 6vh;
+    height: 4vh;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #FF69B4, #FF1493);
     border: none;
     color: white;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
