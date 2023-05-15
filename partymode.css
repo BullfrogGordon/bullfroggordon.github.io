@@ -1,14 +1,14 @@
 body {
-    background-color: #ffffff; 
+    background-color: #00e1ff; 
     font-family: sans-serif;
     size: contain;
     overflow: hidden;
     margin: auto;
-    color:#292929;
+    color:#000000;
   }
 
   .topbox {
-    background-color: #ffffff;
+    background-color: #000000;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,8 +31,8 @@ body {
       left: 10%;
       font-size: 15vh; 
       font-weight: bold; 
-      color: white; 
-      text-shadow: -4px 0 black, 0 2px black, 2px 0 black, 0 -4px black; 
+      color: rgb(255, 0, 149); 
+      text-shadow: -4px 0 rgb(238, 255, 0), 0 2px rgb(238, 255, 0), 2px 0 rgb(238, 255, 0), 0 -4px rgb(238, 255, 0); 
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       position: absolute;
       text-align: left;
@@ -45,7 +45,7 @@ body {
     margin-left: auto;
     text-align: left;
     font-size: 5vh;
-    color: white;
+    color: rgb(195, 0, 255);
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     white-space: pre-wrap;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -58,11 +58,11 @@ body {
     width: 100%;
     height: 200%;
     border-radius: 50%;
-    background-color: #353535;
+    background-color: #ffe600;
     overflow: hidden;
   }
     h1 {
-    color:rgb(0, 43, 100);
+    color:#ff00aa;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -71,7 +71,7 @@ body {
     margin-top: 50px;
     }
     h2 {
-    color:rgb(53, 53, 53);
+    color:rgb(233, 233, 233);
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -80,7 +80,7 @@ body {
     margin-top: 50px;
     }
     h3 {
-    color:rgb(53, 53, 53);
+    color:rgb(236, 236, 236);
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -93,15 +93,15 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #ffffff;
+      background-color: #15ff00;
       height: 5%;
       position: fixed;
       top: 6%;
       left: 0;
       width: 100%;
       z-index: 9999;
-      border-top: 2px solid lightslategray;
-      border-bottom: 2px solid lightslategray;
+      border-top: 2px solid #ff00aa;
+      border-bottom: 2px solid #ff00aa;
     }
 
   .container {
@@ -126,7 +126,7 @@ body {
   
   nav li a {
     display: block;
-    color: #1d1d1d;
+    color: #ff00aa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -185,6 +185,7 @@ body {
     width: 40%;
     margin-left: 20px;
   }
+
 
   .circle-button {
     position: fixed;

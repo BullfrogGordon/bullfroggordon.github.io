@@ -2,26 +2,29 @@
 <html>
 <head>
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="bullfrog.css">
+    <link rel="stylesheet" type="text/css" href="bullfrog.css" id="style-mode">
 </head>
-<body >
-    <script src="bullfrog.js"></script>
-    <div class="nametext">Justin Gordon</div>
-    <h2>
-      Agile Product Manager • <span style="color:#277a00">Licensed Educator</span> • Experienced Technical Writer • <span style="color:#277a00">Accidental Voice Actor</span> • Aspiring Developer
-    </h2>
+<button id="toggle-darktheme" class="circle-button">Dark Mode</button>
+<button id="toggle-partytheme" class="party-button">Party Mode</button>
+
+</div>
+<body style="overflow-y: auto">
+
       <nav class="navigation-menu">
         <ul>
-          <li><a href="index.html" >Home</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a style="pointer-events: none">•</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="projects.html" > <span style="color:#277a00"> Projects</span></a></li>
-          <li><a href="contact.html" >Contact</a></li>
+          <li><a style="pointer-events: none">•</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a style="pointer-events: none">•</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-        <div class="project-container" style="overflow:auto; height:60vh; margin-left: 5px">
+        <div class="project-container" style="overflow:visible">
           <div class="chess-opening-trainer">
             <h1>
-              <span style="color:#277a00">Chess Opening Trainer</span>
+              Chess Opening Trainer
             </h1>
             <h3>Want to impress your friends with your vast knowledge of chess openings and their strange and esoteric names? Try this naming quiz!</h3>
             <p>How it works: <br><br>
@@ -36,7 +39,7 @@
           </div>
           <div class="storyround-project">
             <h1>
-              <span style="color:#277a00">StoryRound- Collaborative Multiplayer Game</span>
+              StoryRound- Collaborative Multiplayer Game
             </h1>
             <h3> This is a digital version of a game I used to play with students. Creative writing is fun! It's more fun to collaborate and write a story with friends. This game lets you write with a group of friends no matter where you all are!</h3>
             <p>
@@ -51,5 +54,8 @@
               • Add buffer time to allow users to read the previous story before allowing them to write.</p>
           </div>
         </div>
-  </body>
+  </body>    
+
+  <script src="bullfrog.js"></script>
+
 </html>

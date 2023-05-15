@@ -1,14 +1,14 @@
 body {
-    background-color: #ffffff; 
+    background-color: #000000; 
     font-family: sans-serif;
     size: contain;
     overflow: hidden;
     margin: auto;
-    color:#292929;
+    color:#f3f3f3;
   }
 
   .topbox {
-    background-color: #ffffff;
+    background-color: #000000;
     position: fixed;
     top: 0;
     left: 0;
@@ -62,7 +62,7 @@ body {
     overflow: hidden;
   }
     h1 {
-    color:rgb(0, 43, 100);
+    color:rgb(86, 188, 255);
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -71,7 +71,7 @@ body {
     margin-top: 50px;
     }
     h2 {
-    color:rgb(53, 53, 53);
+    color:rgb(233, 233, 233);
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -80,7 +80,7 @@ body {
     margin-top: 50px;
     }
     h3 {
-    color:rgb(53, 53, 53);
+    color:rgb(236, 236, 236);
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
@@ -93,15 +93,15 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #ffffff;
+      background-color: #003655;
       height: 5%;
       position: fixed;
       top: 6%;
       left: 0;
       width: 100%;
       z-index: 9999;
-      border-top: 2px solid lightslategray;
-      border-bottom: 2px solid lightslategray;
+      border-top: 2px solid rgb(255, 255, 255);
+      border-bottom: 2px solid rgb(255, 255, 255);
     }
 
   .container {
@@ -126,7 +126,7 @@ body {
   
   nav li a {
     display: block;
-    color: #1d1d1d;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -185,6 +185,7 @@ body {
     width: 40%;
     margin-left: 20px;
   }
+
 
   .circle-button {
     position: fixed;
