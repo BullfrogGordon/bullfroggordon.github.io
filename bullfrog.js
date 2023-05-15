@@ -5,12 +5,14 @@ function changeBottomImage(src) {
   const darkToggle = document.getElementById('toggle-darktheme');
   darkToggle.addEventListener('click', function() {
     const themeStylesheet = document.querySelector('#style-mode');
-    if (themeStylesheet.getAttribute('href') === 'bullfrog.css') {
+    if (themeStylesheet.getAttribute('href') === 'bullfrog.css' || themeStylesheet.getAttribute('href') === 'partymode.css') {
+      document.getElementById("bottom-img").src = 'imgs/navmenu0.jpg';
       themeStylesheet.setAttribute('href', 'darkmode.css');
       localStorage.setItem('stylemode', 'dark')
     } else {
       themeStylesheet.setAttribute('href', 'bullfrog.css')
       localStorage.setItem('stylemode', 'light')
+      document.getElementById("bottom-img").src = 'imgs/navmenu0.jpg';
 
     }
   });
@@ -35,6 +37,7 @@ function changeBottomImage(src) {
       document.getElementById("bottom-img").src = 'imgs/partymenu.jpg';
       localStorage.setItem('stylemode', 'party')
     } else {
+      document.getElementById("bottom-img").src = 'imgs/navmenu0.jpg'
       themeStylesheet.setAttribute('href', 'bullfrog.css')
       localStorage.setItem('stylemode', 'light')
     }
