@@ -190,8 +190,8 @@ body {
   .circle-button {
     position: fixed;
     top: 10px;
-    right: 80px;
-    width: 6vh;
+    right: 10%;
+    transform: translateX(-50%);    width: 6vh;
     height: 4vh;
     border-radius: 50%;
     background-image: linear-gradient(to bottom right, #1E90FF, #00BFFF);
@@ -207,8 +207,8 @@ body {
   .party-button {
     position: fixed;
     top: 10px;
-    right: 20px;
-    width: 6vh;
+    right: 5%;
+    transform: translateX(-50%);    width: 6vh;
     height: 4vh;
     border-radius: 50%;
     background-image: linear-gradient(to bottom right, #FF69B4, #FF1493);

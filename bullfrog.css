@@ -189,7 +189,8 @@ body {
   .circle-button {
     position: fixed;
     top: 10px;
-    right: 80px;
+    right: 10%;
+    transform: translateX(-50%);
     width: 6vh;
     height: 4vh;
     border-radius: 50%;
@@ -206,7 +207,8 @@ body {
   .party-button {
     position: fixed;
     top: 10px;
-    right: 20px;
+    right: 5%;
+    transform: translateX(-50%);
     width: 6vh;
     height: 4vh;
     border-radius: 50%;
@@ -220,7 +222,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  @media only screen and (max-width: 1171) {
+  @media only screen and (max-width: 1170) {
     .circle {
       top: 0;
       right: 0;
@@ -230,11 +232,11 @@ body {
     }
   
     .splash {
-      font-size: 8vw;
+      font-size: 2vw;
       left: 4%;
     }
     .rightsplash {
-      font-size: 3vw;
+      font-size: 1vw;
       right: 4%;
       bottom: 20%;
     }

@@ -189,7 +189,8 @@ body {
   .circle-button {
     position: fixed;
     top: 10px;
-    right: 80px;
+    right: 10%;
+    transform: translateX(-50%);
     width: 6vh;
     height: 4vh;
     border-radius: 50%;
@@ -206,7 +207,8 @@ body {
   .party-button {
     position: fixed;
     top: 10px;
-    right: 20px;
+    right: 5%;
+    transform: translateX(-50%);
     width: 6vh;
     height: 4vh;
     border-radius: 50%;
