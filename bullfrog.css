@@ -219,3 +219,22 @@ body {
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  @media screen and (max-width: 767px) {
+    .circle {
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      border-radius: 0 50% 50% 0;
+    }
+  
+    .splash {
+      font-size: 8vw;
+      left: 4%;
+    }
+    .rightsplash {
+      font-size: 3vw;
+      right: 4%;
+    }
+  }
