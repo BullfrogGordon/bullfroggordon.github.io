@@ -220,7 +220,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  @media screen and (max-width: 767px) {
+  @media only screen and (max-width: 1171) {
     .circle {
       top: 0;
       right: 0;
@@ -236,5 +236,6 @@ body {
     .rightsplash {
       font-size: 3vw;
       right: 4%;
+      bottom: 20%;
     }
   }
