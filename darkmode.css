@@ -223,6 +223,12 @@ body {
   }
 
   @media only screen and (orientation: portrait) and (max-width: 2500px) {
+    main {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        right: 2%;
+      }  
     .circle {
       top: 0;
       right: 0;
