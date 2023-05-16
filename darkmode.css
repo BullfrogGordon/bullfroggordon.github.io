@@ -221,3 +221,60 @@ body {
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  @media only screen and (orientation: portrait) {
+    .circle {
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      border-radius: 50% 0% 0% 50%;
+    }
+  
+    .splash {
+      top: 20%;
+      font-size: 10vw;
+      left: 4%;
+    }
+    .rightsplash {
+      font-size: 4vw;
+      right: 4%;
+      top: 50%;
+      max-width: 60%;
+
+    }
+    .circle-button {
+      position: fixed;
+      top: 1%;
+      right: 20%;
+      transform: translateX(-50%);
+      width: 6vh;
+      height: 4vh;
+      border-radius: 50%;
+      background-image: linear-gradient(to bottom right, #1E90FF, #00BFFF);
+      border: none;
+      color: white;
+      font-size: 1vh;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .party-button {
+      position: fixed;
+      top: 1%;
+      right: 0%;
+      transform: translateX(-50%);
+      width: 6vh;
+      height: 4vh;
+      border-radius: 50%;
+      background-image: linear-gradient(to bottom right, #FF69B4, #FF1493);
+      border: none;
+      color: white;
+      font-size: 1vh;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
