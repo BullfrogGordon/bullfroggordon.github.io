@@ -238,7 +238,7 @@ body {
     .rightsplash {
       font-size: 4vw;
       right: 4%;
-      top: 50%;
+      top: 40%;
       max-width: 60%;
 
     }
@@ -275,5 +275,13 @@ body {
       text-align: center;
       cursor: pointer;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+    }    
+    .bottom-image {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 25vh;
+        border-radius: 50%;
+      }
   }
