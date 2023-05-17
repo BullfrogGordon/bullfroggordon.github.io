@@ -4,7 +4,7 @@
     <title>About Me</title>
     <link rel="stylesheet" type="text/css" href="bullfrog.css" id="style-mode">
 </head>
-<body>
+<body style="overflow-y: auto">
 
    
 
@@ -12,32 +12,42 @@
       <nav class="navigation-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a style="pointer-events: none">•</a></li>
+          <li><a style="pointer-events: none">|</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a style="pointer-events: none">•</a></li>
+          <li><a style="pointer-events: none">|</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a style="pointer-events: none">•</a></li>
+          <li><a style="pointer-events: none">|</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="topbox">  <button id="toggle-darktheme" class="circle-button">Dark Mode</button>
+        <button id="toggle-partytheme" class="party-button">Party Mode</button></div>
       <main>
+        
         <h1>
-            About Me:
+            I am:
         </h1>
-        <h3>
-            I spent the first ten years of my professional life teaching composition to high-ability middle school students. </br> In 2020, I spent a year as a technical writer before transitioning into product management. </br> <br> <span style="color:#02007a; text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white">Now, I just love to build.</span>
-        </h3>
+        <h2><img class="icon" src="imgs/developer.svg"> A Developer -</h2>
+        <p>I love to attack problems and build solutions! My favorite language is whichever I'm learning that week, and my favorite project is the one that I just finished. I love to collaborate and explore new technologies- send me a challenge or an idea! Please check out my <a href="projects.html">projects</a> to see some of my recent work where I've focused on building APIs.</p>
+        <h3>Tools I've Used:</h3>
+        <p> JavaScript, C# & .NET, Python & Flask, NoSQL, HTML, CSS</p>
+        <h2><img class="icon" src="imgs/strategy.svg"> A Product Manager -</h2>
+        <p>I've spent the last three years working in Product. I've worked in both the Cyber Security (PAM) and EdTech sectors focusing on data-driven roadmap building and bridging the gap between long-term strategy and short-term tactical thinking. </p>
+        <h3>Expertise:</h3>
+        <p>Strategic Development, Backlog Management, Customer Outreach and Engagement, User Story Creation, Persona Development, Agile & Scrum Methodologies</p>
+        <h2><img class="icon" src="imgs/google-docs.svg"> A Writer -</h2>
+        <p>My first role in cyber security was writing technical documentation for several products. One product was an API-heavy, CLI-only credential management tool. It was working on that product that I became interested in furthering my own technical education.</p>
+        <h3>Documents I've Written:</h3>
+        <p>Technical Publications, Copy & Content, Marketing, and even a novel or two.</p>
+        <h2><img class="icon" src="imgs/apple.svg"> A Teacher -</h2>
+        <p>I spent eleven years in the classroom, teaching every grade level 6-12. I spent the bulk of my time in the classroom teaching English Composition and Literature to high-ability 6th graders. I manage time and stress well.</p>
+        <h3>Subjects I've Taught:</h3>
+        <p> English Literature, English Composition, Reading, Drama, History, English as a Learned Language</p>
         <br>
-        <br>
-        <p>
-            I've worked with JavaScript, node, C#, .NET, Python, Flask, and various databases on my personal projects.
-            My favorite language is whatever I'm learning that week, and my favorite project is the one I just finished. 
-            In my free time I read about coding, study code, do coding puzzles, and build things with code. I also read about chess, study chess, do chess puzzles, and occasionally even play chess.
-        </p>
+      </div>
       </main>
       
-  <button id="toggle-darktheme" class="circle-button">Dark Mode</button>
-  <button id="toggle-partytheme" class="party-button">Party Mode</button>
+
   <script src="bullfrog.js"></script> 
       
   </body>
