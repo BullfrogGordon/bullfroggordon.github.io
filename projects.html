@@ -20,21 +20,6 @@
         </ul>
       </nav>
         <div class="project-container" style="overflow:visible">
-          <div class="chess-opening-trainer">
-            <h1>
-              Chess Opening Trainer
-            </h1>
-            <h3>Want to impress your friends with your vast knowledge of chess openings and their strange and esoteric names? Try this naming quiz!</h3>
-            <p>How it works: <br><br>
-            A Flask API written in python grabs a database entry from a MongoDB instance. The entry includes the name of the opening along with the FEN, a chess position identifer. The name of the opening gets sent to the front-end. The user positions the board and submits. The FEN and name are sent to the API. The server compares the POST to the corresponding database entry and responds with whether or not they match. The board and pieces are from the open source chessboardjs written by Chris Oakman.
-            </p>
-            <div>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/LEqrpq3-M-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h3>Next Steps:</h3>
-            <p>• Add a 'show position' button that reveals the opening <br>
-              • Implement a scoring system for consecutive correct answers</p>
-          </div>
           <div class="storyround-project">
             <h1>
               StoryRound- Collaborative Multiplayer Game
@@ -50,8 +35,31 @@
             <p>• Change polling function that causes timer discrepancy to a socket implementation <br>
               • Beautify the story return screen <br>
               • Add buffer time to allow users to read the previous story before allowing them to write.</p>
+            <h1>
+              QuickRoster- The Ad-Hoc Roster Creation and Selection App
+            </h1>
+            <h3>Another teaching inspired app, this simple interface allows the creation of multiple rosters of users. Once a roster is created, you can head over to Choosers to randomly select a user from the list. You can also generate an entire list in random order, or randomly select users one-at-a-time until everyone has had a turn!</h3>
+            <p>How it works: <br><br> QuickRoster was designed and written to be entirely client-side. It stores all user-created rosters in browser memory as a single object. The choosers are written in simple Javascript, making the app itself lightweight and ready to be packaged as an installed application.</p>
+            <p>Check out QuickRoster here: <a href="https://bullfroggordon.github.io/quickroster/">QuickRoster</a></p><br>
+            <h3>Next Steps:</h3>
+            <p>• Add 'Grouper' functionality- put the roster into groups of n number, or into n number of groups.<br>
+            • Update the UI so it looks better on desktop <br>
+            • Re-write the app to learn Kotlin.</p>
+            <h1>
+              Chess Opening Trainer
+            </h1>
+            <h3>Want to impress your friends with your vast knowledge of chess openings and their strange and esoteric names? Try this naming quiz!</h3>
+            <p>How it works: <br><br>
+            A Flask API written in python grabs a database entry from a MongoDB instance. The entry includes the name of the opening along with the FEN, a chess position identifer. The name of the opening gets sent to the front-end. The user positions the board and submits. The FEN and name are sent to the API. The server compares the POST to the corresponding database entry and responds with whether or not they match. The board and pieces are from the open source chessboardjs written by Chris Oakman.
+            </p>
+            <div>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LEqrpq3-M-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h3>Next Steps:</h3>
+            <p>• Add a 'show position' button that reveals the opening <br>
+              • Implement a scoring system for consecutive correct answers</p>
           </div>
-        </div>
+
         <button id="toggle-darktheme" class="circle-button">Dark Mode</button>
         <button id="toggle-partytheme" class="party-button">Party Mode</button>
   <script src="bullfrog.js"></script> 
